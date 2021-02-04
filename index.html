@@ -58,9 +58,8 @@
             <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
                 <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
                     <div class="text text-center" >
-                        <!-- <span class="subheading">Hey! I am</span> -->
                         <h1 style='color:white;'>Thanh Duc Dang</h1>
-                          <h3 style='color:#d8d8d8;'> <!--Research Fellow | Singapore University of Technology and Design -->
+                          <h3 style='color:#d8d8d8;'>
 								<span
 								     class="txt-rotate"
 								     data-period="300"
@@ -79,19 +78,12 @@
                         <div class="col-md-12 heading-section ftco-animate">
                             <h1 class="big">About</h1>
                             <h2 class="mb-4">About Me</h2>
-                            <p> I am a research fellow in the <a href="http://saswe.net/">Resilient Water Systems Group</a>
+                            <p> I am a research fellow in the <a href="https://people.sutd.edu.sg/~stefano_galelli/people/">Resilient Water Systems Group</a>
                                 at <a href="http://uw.edu">Singapore University of Technology and Design</a>.
                                 <br><br>
-                                My research revolves around the interface between <b>energy and water resources</b>.
-                                Ensuring the sustainability of our energy systems through smart use of water resources has been the
-                                overarching objective of my research.
-                                <br>
-                                In particular, I aim for a three-step process (<b>'AIM'</b>) to mainstream sustainable energy generation:<br>
-                                <ol>
-                                 <li> <b><u>A</u></b> nalyse the interaction of energy-water resources,<br></li>
-                                 <li> <b><u>I</u></b> mprove the efficiency of energy systems making them more resilient, and<br></li>
-                                <li> <b><u>M</u></b> inimize the detrimental impacts of those operations on our environment.</li>
-                            </ol>
+				My research interestests include modeling of surface and groundwater systems, water-energy-food nexus, 
+			        	reservoir operation, optimization, water quality, fluvial morphology, climate change, hydraulic structure design, 
+				  	remote sensing, machine learning, and spatial analysis.                                                                 
                             </p>
                         </div>
                     </div>
@@ -104,7 +96,6 @@
             </div>
         </div>
     </section>
-
 
     <section class="ftco-section" id="latest-section">
         <div class="container-fluid px-md-5">
@@ -119,12 +110,10 @@
         <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
         <script type="text/javascript">
             window.jssor_1_slider_init = function() {
-
                 var jssor_1_SlideshowTransitions = [
                   {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
                   {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
                 ];
-
                 var jssor_1_options = {
                   $AutoPlay: 1,
                   $SlideshowOptions: {
@@ -141,30 +130,21 @@
                     $NoDrag: true
                   }
                 };
-
                 var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
                 /*#region responsive code begin*/
-
                 var MAX_WIDTH = 880;
-
                 function ScaleSlider() {
                     var containerElement = jssor_1_slider.$Elmt.parentNode;
                     var containerWidth = containerElement.clientWidth;
-
                     if (containerWidth) {
-
                         var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
-
                         jssor_1_slider.$ScaleWidth(expectedWidth);
                     }
                     else {
                         window.setTimeout(ScaleSlider, 30);
                     }
                 }
-
                 ScaleSlider();
-
                 $Jssor$.$AddEvent(window, "load", ScaleSlider);
                 $Jssor$.$AddEvent(window, "resize", ScaleSlider);
                 $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
@@ -199,20 +179,10 @@
             </div>
             <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:880px;height:550px;overflow:hidden;">
                 <div>
-                    <img data-u="image" src="imagesys/miten2020.jpg" />
+                    <img data-u="image" src="imagesys/cert_RIKEN_2020.jpg" />
                     <div u="thumb">Presented during MIT Energy Nights on 'Ecosystem-Safe Hydropower in a Challenging Climate'
                     </div>
-                </div>
-                <div>
-                    <img data-u="image" src="imagesys/spaceappcert.png" />
-                    <div u="thumb">'Best Use of Data' Award during 2020 NASA Space Apps Challenge
-                    </div>
-                </div>
-                <div>
-                    <img data-u="image" src="imagesys/swotcert.png" />
-                    <div u="thumb">Participated as UW Support team in SWOT Early Adopter Virtual Hackathon (2020) co-organized by NASA and CNES
-                    </div>
-                </div>
+                </div>                                
                 <div>
                     <img data-u="image" src="imagesys/bwdb_certi.png" />
                     <div u="thumb">Provided flashflood forecasting services to the Bangladesh Water Development Board (BWDB)
